@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <title>Address book</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Address book</h1>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <h2>Add a contact:</h2>
+        <form id="new-contact">
+          <div class="form-group">
+            <label for="new-first-name">First name</label>
+            <input type="text" class="form-control" id="new-first-name">
+          </div>
+          <div class="form-group">
+            <label for="new-last-name">Last name</label>
+            <input type="text" class="form-control" id="new-last-name">
+          </div>
+
+          <div id="new-addresses">
+            <div class="new-address">
+              <div class="form-group">
+                <label for="new-street">Street</label>
+                <input type="text" class="form-control new-street">
+              </div>
+              <div class="form-group">
+                <label for="new-city">City</label>
+                <input type="text" class="form-control new-city">
+              </div>
+              <div class="form-group">
+                <label for="new-state">State</label>
+                <input type="text" class="form-control new-state">
+              </div>
+            </div>
+          </div>
+
+          <span class="btn btn-primary" id="add-address">Another address</span>
+
+          <button type="submit" class="btn" id="submit-data">Add</button>
+        </form>
+
+        <h2>Contacts:</h2>
+        <ul id="contacts">
+
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <div id="show-contact">
+          <h2></h2>
+          <p>First name: <span class="first-name"></span></p>
+          <p>Last name: <span class="last-name"></span></p>
+          <p>Addresses:</p>
+          <ul id="addresses">
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/jquery-1.12.0.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+<!-- Copyright (c) 2015 **Epicodus**
+
+This software is licensed under the MIT license.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. -->

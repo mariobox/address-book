@@ -14,4 +14,3 @@ Since this is a front end project, the form is not actually submitted. However, 
 
 [Live Demo](https://mariobox.github.io/address-book/)
 
-

@@ -12,4 +12,6 @@ The app does the following:
 
 Since this is a front end project, the form is not actually submitted. However, since the default behaviour of a web page is to refresh itself after hitting the Submit button, we have to use the <code>event.preventDefault()</code> method to prevent this from happening (otherwise, all our information will be lost and the application would be unworkable).
 
+[Live Demo](https://mariobox.github.io/address-book/)
+
 
